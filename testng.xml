@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GoogleSearchTest Suite">
+    <test name="google_search_selenium">
+        <parameter name="keyword" value="Selenium"/>
+        <classes>
+            <class name="GoogleSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="google_search_maven">
+        <parameter name="keyword" value="Maven"/>
+        <classes>
+            <class name="GoogleSearchTest"/>
+        </classes>
+    </test>
+
+    <test name="google_search_testng">
+        <parameter name="keyword" value="TestNG"/>
+        <classes>
+            <class name="GoogleSearchTest"/>
+        </classes>
+    </test>
+
+</suite>
